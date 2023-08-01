@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+  <p>Codificador de Palabras</p>
+  <img src="./assets/programadora.png" alt="programadora" class="programadora">
+  </header>
+  <div id="root" class="enunciado">
+    <h1>¡Crea codigos secretos para proteger tu información!</h1>
+  </div>
+  <h2>Instrucciones</h2>
+  <section class="paso1">
+    <div class="paso1text">
+      <p>Paso 1</p>
+      <h3>Escribe la palabra que quieras codificar/decodificar</h3>
+      <textarea id="texto" rows="3" cols="25" required></textarea>
+      <br>
+      <button value="Enviar" id="btn-captura">Enviar</button>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <div class="paso1img">
+      <img src="./assets/paso1.png" alt="paso1">
+    </div>
+  </section>
+  <section class="paso2">
+  <div class="paso2text">
+    <p>Paso 2</p>
+    <h3>Elige un número para poder codificar o  decodificar<br>tu palabra</h3>
+    <!--<label for="numeros">Elige un numero</label>-->
+    <select id="numeros">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+    </select>
+    <button id="btnEnviarNumero">Enviar Seleccion</button>
+    </div>
+    <div class="paso2img">
+    <img src="./assets/paso2.png" alt="paso2">
+    </div>
+  </section>
+  <section class="paso3">
+    <div class="paso3text">
+      <p>Paso 3</p>
+      <button id="btnCodificar">¡Codificar!</button>
+      <button id="btnDecodificar">¡Descodificar!</button>
+    <!--<button-- value="=¡Descodificar!" id="btnDescodificar">¡Descodificar!</button-->
+      <textarea type="text" id="resultado" placeholder="Aqui aparecera tu palabra codificada"></textarea>
+    </div>
+    <div class="paso3img">
+      <img src="./assets/paso3.png" alt="paso3">
+    </div>
+</section>
+  <script src="index.js" type="module"></script>
+  <script src="cipher.js" type="module"></script>
+</body>
+
 </html>

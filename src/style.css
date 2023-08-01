@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;300;700&display=swap');
+
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*AGREGA UN MODELO DE CAJA A TODOS LOS ELEMENTOS*/
+}
+
+/*HEADER*/
+header {
+    background-color: #6c63ff ;
+    font-family:'Sarabun', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: beige;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.programadora{
+    width: 400px;
+    height: 270px;
+    border-radius: 15px;
+    
+}
+
+/*BODY*/
+
+body {
+    background-color:darkgrey;
+    color:white;
+}
+
+.enunciado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+h2 {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 450px;
+    font-size: 30px;
+    padding-left: 30px;
+
+}
+
+/*PASO 1*/
+.paso1 {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 28px;
+    font-weight: 400px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paso1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.paso1 textarea {
+    resize: none;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.paso1 button {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+
+/*PASO 2*/
+.paso2 {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 28px;
+    font-weight: 400px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.paso2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.paso2 button {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*PASO 3*/
+.paso3 {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 28px;
+    font-weight: 400px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.paso3 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.paso3 button {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.paso3 textarea {
+    font-family: 'Sarabun', sans-serif;
+    resize: none;
+}
